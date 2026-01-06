@@ -1,13 +1,13 @@
 ### todo list management with FastAPI, including adding, deleting, viewing, and retrieving tasks
 
 
-#### POST /todos → add a new task
+- #### POST /todos → add a new task
 
-#### DELETE /todos → delete a task
+- #### DELETE /todos → delete a task
 
-#### GET /todos → show all tasks
+- #### GET /todos → show all tasks
 
-#### GET /todos/{a} → get a specific task
+- #### GET /todos/{a} → get a specific task
 
 # Requirements
 - python 3+
@@ -23,6 +23,10 @@ pip install -r req.txt
 ```
 
 # Ran it
+
+```bash
+cp .env.example .env # fill variables with custom data
+```
 
 Ran the server with:
 ```bash
